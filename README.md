@@ -3,8 +3,9 @@
 simple :
 
 - download files
-- putis in home folder
-- stow .
+- putis in home folder, cd too it and
+
+`stow .`
 
 here ya go
 
