@@ -1,5 +1,7 @@
 # My dot files
 
+## installation
+
 simple :
 
 - download files
@@ -9,10 +11,12 @@ simple :
 
 here ya go
 
-depencies :
+## depencies :
 
-- bash
-- git
+- stow
+- ghostty terminal
+- neovim
+- Terminess Nerd Font
 
 ---
 
