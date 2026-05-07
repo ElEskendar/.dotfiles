@@ -1,1 +1,2 @@
 require("yacine")
+require("plugins")

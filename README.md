@@ -15,7 +15,7 @@ here ya go
 
 - stow
 - ghostty terminal
-- neovim
+- neovim version>=12.0
 - Terminess Nerd Font
 
 ---
