@@ -1,5 +1,21 @@
 # My dot files
 
+## depencies :
+
+- stow
+- ghostty terminal
+- neovim version>=12.0
+- Terminess Nerd Font
+- fd, ripgrep
+
+in bref for fedora copy
+
+```
+sudo dnf install neovim neovim-python stow fd ripgrep terminus-nerd-fonts
+dnf install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
+dnf install ghostty
+```
+
 ## installation
 
 simple :
@@ -10,13 +26,6 @@ simple :
 `stow .`
 
 here ya go
-
-## depencies :
-
-- stow
-- ghostty terminal
-- neovim version>=12.0
-- Terminess Nerd Font
 
 ---
 
