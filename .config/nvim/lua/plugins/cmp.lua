@@ -57,7 +57,7 @@ cmp.setup.cmdline(':', {
 })
 
 vim.filetype.add('razor')
-local lsps = {"roslyn","html", "css", "pyright", "clangd", "lua_ls"}
+local lsps = {"roslyn","html", "cssls", "pyright", "clangd", "lua_ls"}
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
 for i in pairs(lsps) do
