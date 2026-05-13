@@ -16,6 +16,8 @@ dnf install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$
 dnf install ghostty
 ```
 
+Arch linux install comming soon...
+
 ## installation
 
 simple :
