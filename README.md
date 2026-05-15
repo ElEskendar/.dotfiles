@@ -8,7 +8,7 @@
 - Terminess Nerd Font
 - fd, ripgrep
 
-in bref for fedora copy
+### Fedora :
 
 ```
 sudo dnf install neovim neovim-python stow fd ripgrep terminus-nerd-fonts
@@ -16,7 +16,11 @@ dnf install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$
 dnf install ghostty
 ```
 
-Arch linux install comming soon...
+### Arch Linux :
+```
+sudo pacman -S neovim stow fd ripgrep ttf-terminus-nerd ghostty
+```
+
 
 ## installation
 
