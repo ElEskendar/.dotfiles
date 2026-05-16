@@ -11,14 +11,14 @@
 ### Fedora :
 
 ```
-sudo dnf install neovim neovim-python stow fd ripgrep terminus-nerd-fonts
+sudo dnf install neovim neovim-python stow fd ripgrep terminus-nerd-fonts fish
 dnf install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
 dnf install ghostty
 ```
 
 ### Arch Linux :
 ```
-sudo pacman -S neovim stow fd ripgrep ttf-terminus-nerd ghostty
+sudo pacman -S fish neovim stow fd ripgrep ttf-terminus-nerd ghostty npm pyright clang lua-language-server vscode-html-languageserver vscode-css-languageserver
 ```
 
 
