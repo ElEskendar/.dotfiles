@@ -1,3 +1,4 @@
-vim.pack.add({Gh .. "folke/tokyonight.nvim"})
-require("tokyonight").setup()
-vim.cmd[[colorscheme tokyonight-storm]]
+vim.pack.add({Gh .. "gitfolke/tokyonight.nvim"})
+vim.pack.add({Gh .. "gabrielfrimodig/seashell.nvim"})
+require("seashell").setup()
+vim.cmd("colorscheme seashell")
