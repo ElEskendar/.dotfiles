@@ -1,10 +1,10 @@
 #!/bin/zsh
 
 # list of treesitters github urls
-treesitters=("tree-sitter/tree-sitter-python" "tree-sitter/tree-sitter-json" "tree-sitter/tree-sitter-css" "tree-sitter/tree-sitter-html" "tree-sitter/tree-sitter-cpp")
+treesitters=("tree-sitter/tree-sitter-python" "tree-sitter/tree-sitter-json" "tree-sitter/tree-sitter-css" "tree-sitter/tree-sitter-html" "tree-sitter/tree-sitter-cpp" "tree-sitter/tree-sitter-ocaml")
 
 # list of languages installed, correspond too the treesitters on top
-languages=("python" "json" "css" "html" "cpp")
+languages=("python" "json" "css" "html" "cpp" "ocaml")
 
 echo Creating temp directory...
 temp_dir=$(mktemp -d)

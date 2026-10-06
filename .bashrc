@@ -22,4 +22,5 @@ if [ -d ~/.bashrc.d ]; then
         fi
     done
 fi
+export _ZO_DATA_DIR="$HOME/.dotfiles/.zoxide"
 unset rc
