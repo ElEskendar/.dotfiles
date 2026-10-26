@@ -29,5 +29,12 @@ PROMPT='%F{green}%*%f %F{blue}%~%f %F{red}${vcs_info_msg_0_}%f$ '
 [[ ! -r '/home/kyacine/.opam/opam-init/init.zsh' ]] || source '/home/kyacine/.opam/opam-init/init.zsh' > /dev/null 2> /dev/null
 # END opam configuration
 
+# oh my zsh
+export ZSH="$HOME/.oh-my-zsh"
+ZSH_THEME="mortalscumbag"
+plugins=(git zoxide)
+
+source $ZSH/oh-my-zsh.sh
+
+# personal stuff
 alias vim=nvim
-eval "$(zoxide init zsh)"
